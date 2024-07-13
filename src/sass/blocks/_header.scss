@@ -42,3 +42,48 @@
 		align-items: flex-end;
 	}
 }
+
+@media (max-width: 767px) {
+	.header {
+		flex-wrap: wrap;
+
+		&__logo {
+			margin: 10px auto;
+		}
+
+		&__official {
+			display: none;
+		}
+
+		&__contacts {
+			flex-direction: row;
+			align-items: center;
+			margin: 0 auto;
+		}
+
+		&__phone {
+			margin-right: 20px;
+
+			font-size: 21px;
+		}
+	}
+}
+
+@media (max-width: 565px) {
+	.header {
+		justify-content: center;
+
+		&__contacts {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		&__logo {
+			margin: 0 auto;
+		}
+
+		&__phone {
+			margin: 10px 20px;
+		}
+	}
+}
