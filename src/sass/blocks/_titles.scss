@@ -13,3 +13,12 @@
 		text-align: left;
 	}
 }
+
+@media (max-width: 575px) {
+	.title {
+		&_left {
+			font-size: 30px;
+			text-align: center;
+		}
+	}
+}

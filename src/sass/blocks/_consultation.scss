@@ -22,3 +22,13 @@
 		color: #fff;
 	}
 }
+
+@media (max-width: 575px) {
+	.consultation {
+		padding: 60px 0;
+
+		&__descr {
+			text-align: center;
+		}
+	}
+}
