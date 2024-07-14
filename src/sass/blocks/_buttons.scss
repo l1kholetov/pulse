@@ -53,5 +53,20 @@
 
 			font-size: 16px;
 		}
+
+		&_mini {
+			width: 131px;
+			height: 40px;
+
+			font-size: 14px;
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.button {
+		&_mini {
+			width: 120px;
+		}
 	}
 }
