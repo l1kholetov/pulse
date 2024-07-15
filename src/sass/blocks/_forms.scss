@@ -21,6 +21,10 @@
 			margin-bottom: 20px;
 		}
 	}
+
+	&_modal {
+		margin-top: 25px;
+	}
 }
 
 @media (max-width: 575px) {
@@ -28,5 +32,9 @@
 		margin: 0 auto;
 		margin-top: 36px;
 		width: 270px;
+
+		&_modal {
+			width: 100%;
+		}
 	}
 }
