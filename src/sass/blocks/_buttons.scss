@@ -11,6 +11,8 @@
 	border-radius: 5px;
 	background-color: $main-color;
 
+	transition: all .2s linear;
+
 	&_main {
 		margin-top: 67px;
 		width: 300px;
@@ -31,6 +33,10 @@
 		height: 40px;
 
 		font-size: 14px;
+	}
+
+	&:hover {
+		box-shadow: 0 0 10px rgba($color: #000000, $alpha: .4);
 	}
 }
 
