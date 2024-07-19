@@ -21,6 +21,19 @@
 		font-weight: 500;
 		color: #fff;
 	}
+
+	.error {
+		outline: 1px solid $main-color;
+	}
+
+	label.error {
+		margin-bottom: 10px;
+
+		color: #fff;
+		text-align: center;
+
+		outline: none;
+	}
 }
 
 @media (max-width: 575px) {
