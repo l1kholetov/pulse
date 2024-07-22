@@ -162,7 +162,7 @@
 			}
 		}
 
-		&__list {
+		&__inner {
 			position: relative;
 
 			margin-left: 20px;
@@ -171,7 +171,6 @@
 			padding-right: 20px;
 			width: 50%;
 
-			list-style: none;
 
 			transition: all .2s ease-in-out;
 			transform: translateX(0%);
@@ -181,6 +180,13 @@
 
 				transform: translateX(-100%);
 			}
+		}
+
+		&__list {
+			padding: 0;
+			margin: 0;
+
+			list-style: none;
 
 			li {
 				position: relative;
